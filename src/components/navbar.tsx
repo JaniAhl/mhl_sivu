@@ -26,7 +26,7 @@ function NavBar() {
 
     return (
         <AppBar position="fixed" sx={{
-            backgroundColor: 'gray', zIndex: '1', marginTop: '5px'
+            backgroundColor: '#1E1E2F', zIndex: '1', marginTop: '5px'
         }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
@@ -45,7 +45,7 @@ function NavBar() {
                             color: 'inherit',
                             textDecoration: 'none',
                             '&:hover': {
-                                color: 'black', // Muuta hover-tilan väri
+                                color: 'gray', // Muuta hover-tilan väri
                             }
                         }}
                     >
@@ -108,7 +108,7 @@ function NavBar() {
                             color: 'inherit',
                             textDecoration: 'none',
                             '&:hover': {
-                                color: 'black', // Muuta hover-tilan väri
+                                color: 'gray', // Muuta hover-tilan väri
                             }
                         }}
                     >
@@ -129,7 +129,7 @@ function NavBar() {
                                     color: 'white',
                                     display: 'block',
                                     '&:hover': {
-                                        color: 'black', // Muuta hover-tilan väri
+                                        color: 'gray', // Muuta hover-tilan väri
                                     },
                                 }}
                             >
