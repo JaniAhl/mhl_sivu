@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 100vw;
+    height: 10vw;
+}
+
+.appbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.title {}
